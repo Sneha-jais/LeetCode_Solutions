@@ -1,4 +1,10 @@
-
+/* Leetcode Link:
+Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.
+Input: s = "Hello"
+Output: "hello"
+ Input: s = "LOVELY"
+Output: "lovely"
+*/
 
 class Solution {
 public:

@@ -1,4 +1,4 @@
-/* Leetcode Link:
+/* Leetcode Link: https://leetcode.com/problems/to-lower-case/description/
 Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.
 Input: s = "Hello"
 Output: "hello"

@@ -1,4 +1,11 @@
-
+/* Leetcode link: 
+Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
+In Pascal's triangle, each number is the sum of the two numbers
+Input: rowIndex = 3
+Output: [1,3,3,1]
+Input: rowIndex = 0
+Output: [1]
+*/
 
 class Solution {
  public:

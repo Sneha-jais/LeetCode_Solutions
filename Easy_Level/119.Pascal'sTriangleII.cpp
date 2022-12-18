@@ -1,4 +1,4 @@
-/* Leetcode link: 
+/* Leetcode link: https://leetcode.com/problems/pascals-triangle-ii/description/
 Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
 In Pascal's triangle, each number is the sum of the two numbers
 Input: rowIndex = 3

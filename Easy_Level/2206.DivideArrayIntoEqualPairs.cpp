@@ -1,4 +1,4 @@
-/*
+/* Leetcode link: https://leetcode.com/problems/divide-array-into-equal-pairs/description/
 You are given an integer array nums consisting of 2 * n integers.
 You need to divide nums into n pairs such that:
 Each element belongs to exactly one pair.

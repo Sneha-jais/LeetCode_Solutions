@@ -1,4 +1,4 @@
-/*
+/* Leetcode link: https://leetcode.com/problems/defuse-the-bomb/description/
 You have a bomb to defuse, and your time is running out! Your informer will provide you with a circular array code of length of n and a key k.
 To decrypt the code, you must replace every number. All the numbers are replaced simultaneously.
 If k > 0, replace the ith number with the sum of the next k numbers.

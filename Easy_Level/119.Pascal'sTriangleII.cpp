@@ -6,7 +6,6 @@ Output: [1,3,3,1]
 Input: rowIndex = 0
 Output: [1]
 */
-
 class Solution {
  public:
   vector<int> getRow(int rowIndex) {

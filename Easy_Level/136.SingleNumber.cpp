@@ -6,7 +6,6 @@ Output: 1
 Input: nums = [4,1,2,1,2]
 Output: 4
 */
-
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {

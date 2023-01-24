@@ -1,4 +1,5 @@
 /* Leetcode link: https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/description/
+
 There is a special typewriter with lowercase English letters 'a' to 'z' arranged in a circle with a pointer. 
 A character can only be typed if the pointer is pointing to that character. The pointer is initially pointing to the character 'a'.
 Input: word = "abc"
@@ -10,6 +11,7 @@ The characters are printed as follows:
 - Type the character 'b' in 1 second.
 - Move the pointer clockwise to 'c' in 1 second.
 - Type the character 'c' in 1 second.
+
 */
 
 class Solution {

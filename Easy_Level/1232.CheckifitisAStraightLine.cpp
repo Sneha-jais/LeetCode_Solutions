@@ -8,6 +8,7 @@ Output: false
 */
 
 class Solution {
+
 public:
     bool checkStraightLine(vector<vector<int>>& coordinates) {
 
@@ -24,9 +25,7 @@ int x1 = coordinates[0][0];
       if ((x - x1) * dy != (y - y1) * dx)
         return false;
     }
-
     return true;
-
 
     }
 };

@@ -1,4 +1,4 @@
-/* Leetcode link:
+/* Leetcode link: https://leetcode.com/problems/find-the-array-concatenation-value/
 You are given a 0-indexed integer array nums.
 The concatenation of two numbers is the number formed by concatenating their numerals.
 For example, the concatenation of 15, 49 is 1549.

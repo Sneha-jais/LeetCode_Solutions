@@ -1,4 +1,4 @@
-/* leetcode link:
+/* leetcode link: https://leetcode.com/problems/sort-list/
 
 Given the head of a linked list, return the list after sorting it in ascending order.
 Input: head = [4,2,1,3]

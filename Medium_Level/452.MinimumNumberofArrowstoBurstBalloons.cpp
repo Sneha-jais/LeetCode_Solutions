@@ -7,17 +7,23 @@ A balloon with xstart and xend is burst by an arrow shot at x if xstart <= x <= 
 A shot arrow keeps traveling up infinitely, bursting any balloons in its path.
 Given the array points, return the minimum number of arrows that must be shot to burst all balloons.
 Example 1:
+
 Input: points = [[10,16],[2,8],[1,6],[7,12]]
 Output: 2
+
 Explanation: The balloons can be burst by 2 arrows:
 - Shoot an arrow at x = 6, bursting the balloons [2,8] and [1,6].
 - Shoot an arrow at x = 11, bursting the balloons [10,16] and [7,12].
 
+
 */
 
 class Solution{
+    
 public:
-    int findMinArrowShots(vector<vector<int>>& points) {        
+    
+    int findMinArrowShots(vector<vector<int>>& points) {    
+        
         sort(points.begin(),points.end());
         int minimum=points[0][1],c=1;
         for(int i=1;i<points.size();i++)

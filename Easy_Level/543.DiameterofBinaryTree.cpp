@@ -22,6 +22,10 @@ Output: 1
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+
+//METHOD 1:
+/*
 class Solution {
 
 int height(TreeNode *root){
@@ -49,4 +53,40 @@ int diameterOfBinaryTree(TreeNode* root) {
        return ans;
 
     }
+};
+*/
+
+
+
+//METHOD 2:
+
+
+class Solution {
+    
+pair<int,int>dh(TreeNode *root){
+
+if(root==NULL){
+    pair<int,int> p=make_pair(0,0);
+    return p;
+}
+pair<int,int>left=dh(root->left);
+pair<int,int>right=dh(root->right);
+
+int op1=left.first; //diameter from only left
+int op2=right.first; //diameter from only right
+int op3=left.second+right.second; //diameter will be from both left and right
+
+pair<int,int> ans;
+ans.first=max(op1,max(op2,op3));    //diameter
+ans.second=max(left.second,right.second)+1; //height
+return ans;
+}
+
+public:
+int diameterOfBinaryTree(TreeNode* root) {
+
+return dh(root).first;
+    
+      }
+    
 };

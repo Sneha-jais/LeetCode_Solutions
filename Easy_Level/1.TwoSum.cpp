@@ -8,9 +8,11 @@ Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 */
+    
 
 class Solution{
 public:
+    
     vector<int> twoSum(vector<int>& nums, int target) {
             int x=0,y=0;
     for(int i=0;i<nums.size()-1;i++)

@@ -8,6 +8,8 @@ rotate 2 steps to the right: [6,7,1,2,3,4,5]
 rotate 3 steps to the right: [5,6,7,1,2,3,4]
 */
 
+/********** METHOD 1 ************/
+/*
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -20,6 +22,56 @@ int temp;
                 nums[(i+k)%n]=v[i];
            }
         
+
+    }
+};
+*/
+
+/********* METHOD 2 ************/
+
+class Solution {
+public:
+    void rotate(vector<int>& nums, int k) {
+       
+       
+       //In Space Complexity of O(1)
+
+        int n=nums.size();
+        k=k%n;
+
+int low=0,high=n-1;
+
+
+while(low<high){
+    int temp=nums[low];
+    nums[low]=nums[high];
+    nums[high]=temp;
+    low++;
+    high--;
+}
+
+low=0;
+high=k-1;
+
+while(low<high){
+    int temp=nums[low];
+    nums[low]=nums[high];
+    nums[high]=temp;
+    low++;
+    high--;
+}
+
+low=k;
+high=n-1;
+
+while(low<high){
+    int temp=nums[low];
+    nums[low]=nums[high];
+    nums[high]=temp;
+    low++;
+    high--;
+}
+
 
     }
 };

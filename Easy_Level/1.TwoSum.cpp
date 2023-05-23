@@ -16,7 +16,9 @@ class Solution{
     
 public:
     
+    
     vector<int> twoSum(vector<int>& nums, int target) {
+        
             int x=0,y=0;
         
     for(int i=0;i<nums.size()-1;i++)
@@ -27,6 +29,7 @@ public:
             if(nums[i]+nums[j]==target)
             {
                 x=i;
+                
                 y=j;
             }
        
